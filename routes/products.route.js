@@ -18,8 +18,11 @@ router.get('/:code',async (req,res)=>{
 router.get('/',async (req,res)=>{
     const page = req.query.page||1;
     const size = req.query.size||5;
+    const dir = req.query.dir||'asc' ;
+    const sort = req.query.sort || 'id';
+
     const offset = (page-1)*size;
-    const list = await productsModel.findPage(size,offset);
+    const list = await productsModel.findPage(size,offset,dir,sort);
     if(list.length===0){
         return res.status(404).send({
             message:'Page not Found'
