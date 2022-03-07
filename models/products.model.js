@@ -10,8 +10,9 @@ export default {
         if(dir==='asc'){
             return  db('product').limit(size).offset(offset).orderBy(sort,'asc');
         }
+        
         return  db('product').limit(size).offset(offset).orderBy(sort,'desc');
-
+       
     },
     addProduct(product){
         return db('product').insert(product);
