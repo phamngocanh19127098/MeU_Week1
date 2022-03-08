@@ -20,3 +20,6 @@ Step 2 : Download Xampp to work with MySQL
           Start project : npm start
           Test project : npm run test
           Observe product table : http://localhost:{{your port}}/
+
+
+Technique Applied NodeJS Framework Express, hbs view engine, MySQL
