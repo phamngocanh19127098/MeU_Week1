@@ -22,5 +22,13 @@ export default {
     },
     deleteProduct(code){
         return db('product').where('code',code).del();
+    },
+    findPagingLayout(size,offset){
+        return  db('product').limit(size).offset(offset)
+    },
+    async countProduct(){
+        const list =  await db('product').count({ amount: 'id' });
+        return list[0].amount;
+
     }
 }
