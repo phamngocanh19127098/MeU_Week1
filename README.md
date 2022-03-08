@@ -1,7 +1,10 @@
 # MeU_Week1
 Run Project
 Step 1 : Clone Project
-        Create new folder, open cmd, go to dir of new folder , enter : git clone https://github.com/phamngocanh19127098/MeU_Week1
+
+        Create new folder, open cmd, go to dir of new folder
+        Enter : git clone https://github.com/phamngocanh19127098/MeU_Week1
+        
 Step 2 : Download Xampp to work with MySQL 
         
         Start MySQL in Xampp
