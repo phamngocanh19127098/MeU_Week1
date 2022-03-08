@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage",
     "start": "nodemon app.js"
   },
   "keywords": [],
@@ -17,12 +17,17 @@
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
-    "supertest": "^6.2.2"
+    "nyc": "^15.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
+    "babel-cli": "^6.26.0",
     "babel-jest": "^27.5.1",
-    "jest": "^27.5.1"
+    "babel-preset-env": "^1.7.0",
+    "jest": "^27.5.1",
+    "superagent": "^7.1.1",
+    "supertest": "^6.2.2"
   }
 }
