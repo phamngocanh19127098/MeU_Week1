@@ -13,9 +13,9 @@ Step 2 : Download Xampp to work with MySQL
         Once MySQL start successful, open your browser and access http://localhost:80/phpmyadmin/
         Create Schema name 'inventory'
         
+        Create table 'product' 
+        Run file mysql.sql (attach in project) in http://localhost:80/phpmyadmin/
        
-        Click SQL and Run file mysql.sql in project
-        After create table 'product' completely
         
  Step 3 : Open project in IDE like Visual Studio, Intellij, ...
         
