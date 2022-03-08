@@ -1,9 +1,9 @@
 # MeU_Week1
 Run Project
 Step 1 : Clone Project
-        git clone https://github.com/phamngocanh19127098/MeU_Week1
+        Create new folder, open cmd, go to dir of new folder , enter : git clone https://github.com/phamngocanh19127098/MeU_Week1
 Step 2 : Download Xampp to work with MySQL 
-![image](https://user-images.githubusercontent.com/69684844/157168501-c6ecac14-941a-4e0f-ba75-e337bbd4396f.png)
+        ![image](https://user-images.githubusercontent.com/69684844/157168501-c6ecac14-941a-4e0f-ba75-e337bbd4396f.png)
         
         Start MySQL in Xampp
         Once MySQL start successful, open your browser and access http://localhost:80/phpmyadmin/
@@ -15,7 +15,7 @@ Step 2 : Download Xampp to work with MySQL
         
  Step 3 : Open project in IDE like Visual Studio, Intellij, ...
         
-          Open terminal, Enter: npm install
+          Open terminal, to init nodes and dependecies, enter: npm install 
           
           Start project : npm start
           Test project : npm run test
